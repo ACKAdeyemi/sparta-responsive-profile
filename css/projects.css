@@ -1,3 +1,5 @@
+/* Original CSS */
+
 .screenshot {
   padding-top:30px;
   height: 200px;
@@ -17,4 +19,40 @@
 .tile img	{
 	display: block;
 	margin: 0 auto;
+}
+
+
+/* ACKA's Additional CSS */
+
+/* MOBILE VIEW STYLES */
+@media screen and (max-width: 400px) {
+	.tile {
+		width: 100%;
+    border: none;
+	}
+	.screenshot {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* INBETWEEN MOB AND TAB STYLE */
+@media screen and (min-width: 401px) and (max-width: 500px) {
+	.tile {
+		width: 100%;
+    border: none;
+	}
+}
+/* TABLET VIEW STYLES */
+@media screen and (min-width: 501px) and (max-width: 910px) {
+	.tile {
+		width: 100%;
+    border: none;
+    display: block;
+	}
+}
+/* DESKTOP STYLES */
+@media screen and (min-width: 910px) and (max-width: 1180px) {
+  .tile {
+    width: 45%;
+  }
 }
