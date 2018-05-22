@@ -75,4 +75,14 @@ header, .experience {
 		text-align: center;
 		justify-content: center;
 	}
+	.left {
+		text-align: center;
+	}
+	.right {
+		text-align: center;
+	}
+	.left ul {
+		padding: 0;
+		list-style: none;
+	}
 }
